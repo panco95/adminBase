@@ -14,5 +14,23 @@ use think\Controller;
 class Base extends Controller
 {
 
+    //json成功响应
+    public function jsonSuccess($data = [], $msg = 'success', $code = 200)
+    {
+        return json([
+            "code" => $code,
+            "msg" => $msg,
+            "data" => $data
+        ]);
+    }
+
+    //json失败响应
+    public function jsonFail($msg = "fail", $code = 500)
+    {
+        return json([
+            "code" => $code,
+            "msg" => $msg
+        ]);
+    }
 
 }
