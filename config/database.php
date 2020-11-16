@@ -56,42 +56,4 @@ return [
     'break_reconnect' => false,
     // 断线标识字符串
     'break_match_str' => [],
-    // u8数据库1:998
-    'u8' => [
-        'type'            => 'sqlsrv',
-        'hostname'        => '192.168.8.241',
-        'database'        => 'UFDATA_997_2020',
-        'username'        => 'sa',
-        'password'        => 'QIyou82132016',
-        'hostport'        => '1433',
-    ],
-    // 记录库
-    'sync' => [
-        'type'            => 'mysql',
-        'hostname'        => '127.0.0.1',
-        'database'        => 'lttyh_u8api',
-        'username'        => 'lttyh_u8api',
-        'password'        => 'EfPmDLiee3y4EEM6',
-//        'database'        => 'sync',
-//        'username'        => 'root',
-//        'password'        => '0825',
-        'hostport'        => '3306',
-    ],
-    // 小程序商城数据库
-    'LTT_Weixin' => [
-        'type'            => 'sqlsrv',
-        'hostname'        => '47.112.205.82',
-        'database'        => 'LTT_Weixin',
-        'username'        => 'ltt',
-        'password'        => 'Li@titong!',
-        'hostport'        => '1433',
-    ],
-    'LTT_Platform' => [
-        'type'            => 'sqlsrv',
-        'hostname'        => '47.112.205.82',
-        'database'        => 'LTT_Platform',
-        'username'        => 'ltt',
-        'password'        => 'Li@titong!',
-        'hostport'        => '1433',
-    ],
 ];
