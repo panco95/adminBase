@@ -1,0 +1,4 @@
+.pagination {}
+.pagination li {display: inline-block;margin-right: -1px;padding: 5px;border: 1px solid #e2e2e2;min-width: 20px;text-align: center;}
+.pagination li.active {background: #5f9ea0;color: #ffffff;border: 1px solid #009688;}
+.pagination li a {display: block;text-align: center;}
